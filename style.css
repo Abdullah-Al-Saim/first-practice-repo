@@ -39,7 +39,22 @@ width: 80%;
     width: 60%;
     margin-right: 5%;
     margin-left: 5%;
-    box-shadow: 10px 10px 40px black;
-    padding-left: 7%;
-    padding-bottom: 5%;
+    box-shadow: 10px 10px 25px black;
+    padding-left: 25px;
+    padding-bottom: 35px;
+}
+.last-bannar{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#border-left-color{
+   border-left: 7px solid;
+   border-image: linear-gradient(blue, cyan);
+   border-image-slice: 1;
+}
+#border-right-color{
+    border-left: 7px solid;
+   border-image: linear-gradient(salmon, tomato);
+   border-image-slice: 1;
 }
